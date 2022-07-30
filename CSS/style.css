@@ -1,0 +1,144 @@
+body
+{
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color:aqua;
+    direction:ltr;
+}
+.container
+{
+    width: 90%;
+    margin: auto;
+    overflow: hidden; 
+}
+ul
+{   
+    margin: 0%;
+    padding: 0%;
+}
+header
+{
+    background: #353637;
+    color: bisque;
+    padding-top: 15px;
+    min-height: 70px;
+    border-bottom: #32a0c2 5px solid ;
+}
+header a
+{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li
+{
+    display: flex;
+    float: left;
+    padding: 0 20px 0 20px;
+    border: 1px solid white;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+header #brand
+{
+    float: left;
+}
+header #brand h1
+{
+    margin: 0%;
+    color: #32a0c2 ;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header #brand p{
+    margin-top: -10px;
+    letter-spacing: 3px;
+}
+header nav
+{
+    float: right;
+    margin-top: 10px;
+}
+header .current a
+{
+    color: #32a0c2;
+    font-weight: bold;
+}
+header a:hover
+{
+    color: chartreuse;
+    font-weight: bold;
+}
+#show
+{
+    min-height: 600px;
+    background: url("../imgs/5555.webp") no-repeat center;
+    background-size:cover;
+}
+#newsletter
+{
+    padding: 15px;
+    color: aliceblue;
+    background: #353637;
+    height: 100px;
+}
+#newsletter h1
+{
+    float: left;
+    margin-top: 35px;
+    height: auto;
+}
+#newsletter form
+{
+    float: right;
+    margin-top: 30px;
+}
+#newsletter input[type="email"]
+{
+    padding: 4px;
+    height: 25px;
+    width: 270px;
+    border-radius: 5px;
+}
+.button
+{   height: 38px;
+    background: #cccccc;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #164fae;
+    cursor: pointer;
+}
+.boxs
+{
+    display: flex;
+    margin: 20px 260px;
+    justify-content: space-between;
+}
+.boxs .box
+{
+margin: 0;
+padding: 0;
+}
+.boxs .box h2{
+    width: 160px;
+    text-align: center;
+}
+footer
+{   
+    background-color:darkgrey;
+    text-align: center;
+    font-weight: bold ;
+    font-size: 44px;
+    padding: 20px;
+    margin-top: 20px;
+    color:black;
+}
+footer span{
+    color: #164fae;
+}
